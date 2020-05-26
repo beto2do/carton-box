@@ -1,10 +1,10 @@
 class CartonBox {
-    constructor(ctx) {
+    constructor(ctx, size = 100) {
         this.ctx = ctx;
-        this.ctx.fillStyle = "orange";
-        this.ctx.strokeStyle = "black";
+        this.ctx.fillStyle = "#AD8762";
+        this.ctx.strokeStyle = "#1a1a00";
         this.ctx.lineWidth = 1;
-        this.h = 100;
+        this.h = size;
         this.initX = this.ctx.canvas.width / 2;
         this.initY = this.ctx.canvas.height / 2;
     }
